@@ -1,0 +1,10 @@
+package it.alnao.saluti;
+
+import io.swagger.annotations.Api;
+
+@RestController
+@RequestMapping("/api/articoli")
+//@CrossOrigin(origins = {"http://localhost:4200"})
+public class SalutiController {
+
+}

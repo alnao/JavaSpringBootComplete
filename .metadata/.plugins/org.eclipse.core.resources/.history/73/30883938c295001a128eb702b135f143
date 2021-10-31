@@ -1,0 +1,10 @@
+server:
+  port: 5092
+spring:
+  application:
+    name: saluti
+logging:
+  level:
+    root: WARN
+    org.springframework: INFO
+    it.alnao.saluti: TRACE

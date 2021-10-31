@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;SalutiController.java&apos; to &apos;AlNaoPassword/src/main/java/it.alnao.alNaoPassword&apos;&#x0A;- Original project: &apos;saluti&apos;&#x0A;- Destination element: &apos;AlNaoPassword/src/main/java/it.alnao.alNaoPassword&apos;&#x0A;- Original element: &apos;it.alnao.saluti.SalutiController.java&apos;" description="Copy compilation unit" destination="=AlNaoPassword/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;it.alnao.alNaoPassword" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;it.alnao.saluti{SalutiController.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1589464984314" units="1" version="1.0"/>
+</session>

@@ -1,0 +1,12 @@
+server:
+  port: 5051
+  ssl:
+    enabled: false
+    key-store-type: PKCS12
+    key-store: classpath:ssl-server.jks
+    key-store-password: A.1234qaz
+logging:
+  level:
+    root: WARN
+    org.springframework: INFO
+    com.xantrix.webapp: TRACE

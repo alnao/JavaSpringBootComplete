@@ -1,0 +1,9 @@
+package it.alnao.saluti;
+
+
+@RestController
+@RequestMapping("/api/articoli")
+//@CrossOrigin(origins = {"http://localhost:4200"})
+public class SalutiController {
+
+}

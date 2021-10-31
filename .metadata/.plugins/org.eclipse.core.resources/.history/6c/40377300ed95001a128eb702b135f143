@@ -1,0 +1,27 @@
+package it.alnao.alNaoPassword;
+
+import java.util.List;
+
+import org.springframework.data.domain.Pageable;
+
+import com.xantrix.webapp.entities.Articoli;
+
+public interface PasswordService 
+{
+	public List<PasswordEntities> SelByDescrizione(String descrizione);
+	
+	public PasswordEntities SelByCodArt(String codArt);
+	
+	public PasswordEntities SelByBarcode(String barcode);
+	
+	public void DelArticolo(PasswordEntities articolo);
+	
+	public void InsArticolo(PasswordEntities articolo);
+	
+	public Iterable<PasswordEntities> selTutti();
+	
+	public List<PasswordEntities> selByDescrizione(String descrizione);
+	
+	public List<PasswordEntities> selByDescrizione(String descrizione,Pageable pageable);
+
+}

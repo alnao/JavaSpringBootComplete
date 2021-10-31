@@ -1,0 +1,16 @@
+server.port=5000
+spring.application.name=saluti
+logging.level.root=WARN
+logging.level.org.springframework=INFO
+logging.level.it.alnao=TRACE
+
+spring.datasource.initialization-mode=always
+spring.datasource.platform=postgres
+spring.datasource.username=${RDS_USERNAME:postgres}
+spring.datasource.password=${RDS_PASSWORD:A.1234qaz}
+spring.datasource.url=jdbc:postgresql://${RDS_HOSTNAME:localhost}:5432/myweb
+
+spring.jpa.hibernate.ddl-auto=none
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
+spring.jpa.properties.hibernate.jdbc.lob.non_contextual_creation=true
+spring.jpa.show-sql=true

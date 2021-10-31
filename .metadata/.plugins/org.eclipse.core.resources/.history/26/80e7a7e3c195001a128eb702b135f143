@@ -1,0 +1,7 @@
+server:
+  port: 5051
+logging:
+  level:
+    root: WARN
+    org.springframework: INFO
+    com.xantrix.webapp: TRACE

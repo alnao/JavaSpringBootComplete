@@ -1,0 +1,11 @@
+package it.alnao.saluti;
+
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+@RequestMapping("/api/articoli")
+//@CrossOrigin(origins = {"http://localhost:4200"})
+public class SalutiController {
+
+}
