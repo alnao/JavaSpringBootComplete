@@ -27,7 +27,7 @@ sicurezza:
     header: Authorization
     prefix: Bearer 
     expiration: 86400
-    secret: 123_Stella
+    secret: AA
 
 # ==============================================================
 # = Livello Log di Sicurezza

@@ -9,7 +9,7 @@ spring:
       authentication-database: admin
       database: ms-users
       host: localhost
-      password: bellissimo
+      password: AA
       port: 27017
       username: alberto
   autoconfigure:

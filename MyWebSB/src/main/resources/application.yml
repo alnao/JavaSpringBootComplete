@@ -13,7 +13,7 @@ spring:
 # ==============================================================
   datasource:
     initialization-mode: always
-    password: 123_Stella
+    password: AAAA
     platform: postgres
     url: jdbc:postgresql://localhost:5433/MyPuddu
     username: postgres

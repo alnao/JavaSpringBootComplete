@@ -7,7 +7,7 @@ server:
     enabled: false
     key-store-type: PKCS12
     key-store: classpath:ssl-server.jks
-    key-store-password: A.1234qaz
+    key-store-password: A.
 logging:
   level:
     root: WARN
@@ -42,7 +42,7 @@ sicurezza:
   header: Authorization
   prefix: Bearer 
   expiration: 86400
-  secret: 123_Stella
+  secret: AA
 feign:
   compression:
     request:
@@ -59,7 +59,7 @@ spring:
 # ==============================================================
   datasource:
     initialization-mode: always
-    password: A.1234qaz
+    password: A.
     platform: postgres
     url: jdbc:postgresql://localhost:5432/AlphaShop
     username: postgres
